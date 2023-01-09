@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    height: 100vh;
+    background: #3936C0;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+    position: absolute;
+    width: 328.92px;
+    height: 176.26px;
+    margin-top: 60px;
+    left: 41px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+img {
+    width: 328.92px;
+    height: 176.26px;
+    left: 48px;
+    top: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+textarea {
+    width: 342px;
+    height: 138px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 31px;
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 15px;
+    padding-top: 16px;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+    width: 342px;
+    height: 64px;
+    background: #000000;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 2px;
+    color: #FFFFFF;
+    cursor: pointer;
 }
+
+ul {
+    width: 342px;
+    height: 68px;
+    left: 36px;
+    top: 555px;
+    background: rgba(255, 255, 255, 0.14);
+    margin-top: 41px;
+    font-style: normal;
+    
+
+}
+
+li{
+    width: 323px;
+    height: 51px;
+    left: calc(50% - 323px/2 - 2.5px);
+    top: calc(50% - 51px/2 - 0.5px);
+    font-weight: 900;
+    font-size: 17px;
+    line-height: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
