@@ -19,11 +19,14 @@ function App() {
   return (
     <div class='navbar' >
       <img src={Image} alt=" imagem-pessoas" />
-      <textarea placeholder='Seu cometário aqui' onChange={typeText}></textarea>
+      <textarea placeholder='Seu comentário aqui' onChange={typeText}></textarea>
       <button onClick={clickButton}>Comentar</button>
       <ul >
         {allComents.map((coment) => (
-          <li key={coment}>{coment}</li>
+          <li class='li'
+          key={coment}>{coment}
+          </li>
+          
         ))}
 
 
